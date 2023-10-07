@@ -13,7 +13,7 @@ sudo chmod +x postgresql_optimizer.sh
 ./postgresql_optimizer.sh
 ```
 
-## <span style="color: blue;">Recursos utilizados pela ferramenta:.</span>
+## Recursos utilizados pela ferramenta:
 ### shared_buffers
 Define a quantidade de memória(Valor inteiro) que o servidor de banco de dados usa para buffers de memória compartilhada. 
 Se o servidor de banco de dados tiver com 1 GB ou mais de RAM, um valor inicial razoável de shared_buffersé 25% da memória do seu SO. 
