@@ -105,6 +105,15 @@ Esse valor pode ser substituído para tabelas e índices em um tablespace espec�
 read -p "Digite o número máximo de conexões (max_connections): " max_connections
 read -p "Digite a quantidade de memória RAM disponível em GB: " ram_gb
 read -p "Digite o número total de CPUs disponíveis: " total_cpus
+sleep 1
+
+#------------------------------------------------------------------------------------------------
+# Loading
+echo -n "Gerando configurações "
+for i in {1..10}; do
+  echo -n "."
+  sleep 0.03 
+done
 
 #------------------------------------------------------------------------------------------------
 # Cálculos com base no que o usuário digitou:
