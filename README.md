@@ -9,12 +9,11 @@ O PostgreSQL Optimizer é uma ferramenta projetada para aprimorar o desempenho e
 ## Executando o script:
 ```bash
 curl -o postgresql_optimizer.sh https://raw.githubusercontent.com/Kionovelletto/postgreSQL_Optimizer/main/postgresql_optimizer.sh
-chmod +x postgresql_optimizer.sh
+sudo chmod +x postgresql_optimizer.sh
 ./postgresql_optimizer.sh
 ```
 
-## Recursos utilizados pela ferramenta:
-
+## <span style="color: blue;">Recursos utilizados pela ferramenta:.</span>
 ### shared_buffers
 Define a quantidade de memória(Valor inteiro) que o servidor de banco de dados usa para buffers de memória compartilhada. 
 Se o servidor de banco de dados tiver com 1 GB ou mais de RAM, um valor inicial razoável de shared_buffersé 25% da memória do seu SO. 
@@ -38,13 +37,13 @@ Especifica a quantidade(valor inteiro) máxima de memória a ser usada pelas ope
 Se esse valor não for especificado, ele será considerado como quilobytes. O padrão é 64 megabytes ( 64MB). 
 É prudente definir esse valor significativamente maior que work_mem. Configurações maiores podem melhorar o desempenho da limpeza e da restauração de dumps do banco de dados.
 
-#### huge_pages
+### huge_pages
 Controla as páginas grandes que são solicitadas da memória compartilhada. Os valores válidos são try(o padrão), on, e off. 
 Com huge_pages definido como try, o servidor tentará solicitar páginas enormes, mas voltará ao padrão se falhar. 
 Com on, a falha na solicitação de páginas grandes impedirá a inicialização do servidor. 
 Com off, páginas enormes não serão solicitadas.
 
-#### max_parallel_workers_per_gather
+### max_parallel_workers_per_gather
 Define o número máximo de processos que podem ser iniciados por um único Gather. 
 Processos paralelos são retirados do conjunto de processos estabelecido por max_worker_processes, pois é limitado pelo max_parallel_workers . 
 O número de processos pode não estar disponível em tempo de execução. Se isto ocorrer, o serviço funcionará com menos processos do que o esperado, o que pode ser ineficiente. O valor padrão é 2.
