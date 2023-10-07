@@ -1,6 +1,8 @@
 # PostgreSQL_Optimizer
 
-<img alt="Terraform" src="https://github.com/Kionovelletto/postgreSQL_Optimizer/blob/main/img/logo_pg_optimizer.png" width="300px">
+<div style="display: flex; justify-content: center;">
+  <img alt="Terraform" src="https://github.com/Kionovelletto/postgreSQL_Optimizer/blob/main/img/logo_pg_optimizer.png" width="300px">
+</div>
 
 O PostgreSQL Optimizer é uma ferramenta projetada para aprimorar o desempenho e a eficiência de seu banco de dados PostgreSQL que pode ser executado somente no linux. Desenvolvido especificamente para o PostgreSQL, um dos sistemas de gerenciamento de banco de dados de código aberto mais populares do mundo, o PostgreSQL Optimizer oferece uma série de recursos e funcionalidades destinados a otimizar o desempenho do seu banco de dados.
 
