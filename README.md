@@ -1,4 +1,4 @@
-# PostgreSQL_Optimizer
+# PostgreSQL Optimizer
 
 <div style="display: flex; justify-content: center;">
   <img alt="pgoptimizer" src="https://github.com/Kionovelletto/postgreSQL_Optimizer/blob/main/img/logo_pg_optimizer.png" width="300px">
